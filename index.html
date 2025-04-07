@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Form</title>
+</head>
+<body>
+  <h1>Submit Your Details</h1>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+    
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+    
+    <label>Upload File:</label><br>
+    <input type="file" name="file" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
